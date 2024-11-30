@@ -97,7 +97,7 @@ button:focus-visible {
   }
 }
 
-/* Cambios para dispositivos con un ancho menor a 1000px */
+/* Cambios para dispositivos con un ancho menor a 1000px */ 
 @media (max-width: 1000px) {  
   .container {
     width: 450px;

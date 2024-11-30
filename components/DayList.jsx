@@ -23,7 +23,7 @@ const DayList = ({ selectedMonth, daysData, setDaysData }) => {
         const updatedDays = [...days];
         updatedDays[index][field] = value;
         setDays(updatedDays);
-        setDaysData(updatedDays); // Actualizamos el estado de los días
+        setDaysData(updatedDays); // Actualizamos el estado de los días 
     };
 
     return (

@@ -78,7 +78,7 @@ const Results = ({ daysData }) => {
 
       {/* Mostrar la lista de asignaciones solo si 'showResults' es verdadero */}
       {showResults && (
-        <>
+        <> 
           <h3>Agents i dies assignats:</h3>
           <ul>
             {assignments.map((result, index) => (

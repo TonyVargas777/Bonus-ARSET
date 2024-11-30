@@ -5,7 +5,7 @@ import Results from '../components/Results';
 
 const App = () => {
     const [selectedMonth, setSelectedMonth] = useState('2025-01'); // Mes y año por defecto
-    const [daysData, setDaysData] = useState([]); // Almacena días, agentes y cantidad de trabajadores
+    const [daysData, setDaysData] = useState([]); // Almacena días, agentes y cantidad de trabajadores 
 
     return (
         <div className='container'> 

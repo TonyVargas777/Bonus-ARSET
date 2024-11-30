@@ -3,7 +3,7 @@ import React from 'react';
 const MonthSelector = ({ selectedMonth, setSelectedMonth }) => {
     return (
         <div className="container">
-            <label htmlFor="month">Selecciona mes i any:</label>
+            <label htmlFor="month">Selecciona mes i any:</label> 
             <input
                 id="month"
                 type="month"

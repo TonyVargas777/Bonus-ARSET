@@ -1,6 +1,6 @@
 import * as XLSX from 'xlsx';
 
-const generateExcel = (assignments, workerSchedule, fileName) => {
+const generateExcel = (assignments, workerSchedule, fileName) => { 
     // Crear una nueva hoja para "Assignacions" (días y agentes asignados)
     const assignmentSheet = assignments.map(result => ({
         Dia: result.day,
