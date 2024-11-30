@@ -28,11 +28,11 @@ Després, clona aquest repositori al teu ordinador i instal·la les dependèncie
 git clone https://github.com/TonyVargas777/Bonus-ARSET.git
 cd Bonus-ARSET
 npm install
+```
 
 ### 2. Execució:
 
 Per executar l'aplicació, utilitza el següent comandament:
 ```bash
 npm run dev
-
-# Tony Vargas
+```
